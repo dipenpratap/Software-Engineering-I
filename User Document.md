@@ -36,4 +36,6 @@ Pay
     Hour
     Day
     Week
-<Add detailed info. here>
+    
+    
+Add detailed info. here
