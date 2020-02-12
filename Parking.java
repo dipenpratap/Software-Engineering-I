@@ -10,6 +10,7 @@ CAR 		: $1.00/hr first 2 hr $4/hr after 2 hr
 BUS 		: $2.00/hr first hr $5/hr after 1 hr
 
 Collaborators please learn git and create a branch before making any changes.
+just testing git 
 
 */
 
