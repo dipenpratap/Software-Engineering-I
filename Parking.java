@@ -5,11 +5,11 @@
 // The rate of parking is as follows:
 /*
 
-TWO WHEELER : $0.00/hr first 3 hr $1.50/hr after 3 hr
-CAR 		: $1.00/hr first 2 hr $2.30/hr after 2 hr
-BUS 		: $2.00/hr first hr $3.70/hr after 1 hr
+TWO WHEELER : $0.00/hr first 2 hr $2/hr after that
+CAR 		: $1.00/hr first 2 hr $4/hr after 2 hr
+BUS 		: $2.00/hr first hr $5/hr after 1 hr
 
-- Dipendra Yadav
+Collaborators please learn git and create a branch before making any changes.
 
 */
 
@@ -55,8 +55,8 @@ class Parking {
 
 				System.out.println("============ CHARGES ===============");
 				System.out.println("VEHICLE TYPE: CAR");
-				if (hr > 0.5) {
-					double amount = (hr - 0.5) * 2.30 + 2.00;
+				if (hr > 2 {
+					double amount = (hr - 2) * 4 + 2.00;
 					System.out.println("CHARGES = " + df.format(amount));
 				} else {
 					double amount = (hr) * 1.00;
@@ -70,7 +70,7 @@ class Parking {
 				System.out.println("============ CHARGES ===============");
 				System.out.println("VEHICLE TYPE: TRUCK");
 				if (hr > 1) {
-					double amount = (hr - 1) * 3.70 + 2.00;
+					double amount = (hr - 1) * 5 + 2.00;
 					System.out.println("CHARGES = " + df.format(amount));
 				} else {
 					double amount = (hr) * 2.00;
