@@ -8,14 +8,19 @@
 ## Goal of the project
 The main goal of this project will be to create a parking system monitor that keeps track of time for a vehicle parked. It also provides the user with an interface where he/she can select from three main options: (1) Park, (2) Exit, and (3) Extend. Furthermore, the user will be provided other options after selecting one of the above-mentioned use cases.
 
-<Add more info.>
 
 
 
-## Potential Users
+## Potential Users (Stakeholders)
+The potential users for this software would include the following groups:
+1.  Parking Garage Owners
+2.  Valet Parking Systems
+3. Business Enterprises
+4. School & Campuses
+5. Users of the Parking Garage or Parking lots
 
 
-<Add info here>
+
 
 ## Implemented Functionalities
 
@@ -38,4 +43,3 @@ Pay
     Week
     
     
-Add detailed info. here
