@@ -25,21 +25,22 @@ The potential users for this software would include the following groups:
 ## Implemented Functionalities
 
 
-Potential Use Cases: 1)Park
-Size of vehicle
-Hours
-Rate
-Booking
+Potential Use Cases: 
+1)Park
+ a. Size of vehicle
+ b. Hours
+ c. Rate
+ d. Booking
 
 2)Exit
 Pay
-    Credit/Debit Cards
-    Cash
-    Apple Pay
+a.  Credit/Debit Cards
+b.  Cash
+c.  Apple Pay
     
 3)Extend
-    Hour
-    Day
-    Week
+a.  Hour
+b.  Day
+c.  Week
     
     
