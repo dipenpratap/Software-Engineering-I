@@ -1,15 +1,19 @@
-// This class asks the user for type of vehicle and calculates the parking fare on the basis of:
-// 1. Type of vehicle
-// 2. Total hours parked
+//This class is for the user to extend their parking time
+//The goal is to enable the user to extend the time without having to exit and go through all the process allover again
 
-// The rate of parking is as follows:
+
+
+
+// This class asks the user for type of vehicle and calculates the parking fare on the basis of:
+// 1. Type of vehicle entered during the park class
+// 2. Total hours to be extended
+
+// The rate of extended parking is as follows:
 /*
 
-TWO WHEELER : $0.00/hr first 2 hr $2/hr after that
-CAR 		: $1.00/hr first 2 hr $4/hr after 2 hr
-BUS 		: $2.00/hr first hr $5/hr after 1 hr
-
-Collaborators please learn git and create a branch before making any changes.
+TWO WHEELER : $2.50/hr after
+CAR 		: $4.50/hr after
+BUS 		: $5.50/hr after
 
 */
 
@@ -17,65 +21,55 @@ Collaborators please learn git and create a branch before making any changes.
 import java.util.*;
 import java.text.*;
 
-class Parking {
+class Extend {
 	public static void main(String[] args) {
 		DecimalFormat df = new DecimalFormat("$##.##");
 		Scanner input = new Scanner(System.in);
 		double hr = 0.0;
 		int menu = 0;
-		System.out.println("PARKING CHARGES");
+		System.out.println("EXTEND PARKING CHARGES");
 		System.out.println();
 		System.out.println("1. TWO WHEELER");
 		System.out.println("2. CAR");
-		System.out.println("3. TRUCK");
+		System.out.println("3. BUS");
 		System.out.println("4. EXIT");
 		boolean quit = false;
 		do {
-			System.out.print("PLEASE ENTER YOUR CHOICE: ");
+			System.out.print("SELECT YOUR VEHICLE TYPE: ");
 			menu = input.nextInt();
 			System.out.println();
 
 			switch (menu) {
 			case 1:
-				System.out.print("ENTER THE TOTAL HOURS: ");
+				System.out.print("ENTER THE TOTAL HOURS YOU WANT TO EXTEND YOUR PARKING: ");
 				hr = input.nextDouble();
 
-				System.out.println("============ CHARGES ===============");
+				System.out.println("============ EXTENDED CHARGES ===============");
 				System.out.println("VEHICLE TYPE: TWO WHEELER");
-				if (hr > 2) {                   // NO CHARGE FOR FIRST TWO HOURS
-					double amount = (hr - 2) * 2.00;   // $2/HR AFTERWARDS
+					double amount = (hr) * 2.50;
 					System.out.println("CHARGES = " + df.format(amount));
-				} else {
-					System.out.println("NO CHARGE! FIRST 2 MINUTES IS FREE");
 				}
 				break;
 			case 2:
-				System.out.print("ENTER THE TOTAL HOURS: ");
+				System.out.print("ENTER THE TOTAL HOURS YOU WANT TO EXTEND YOUR PARKING: ");
 				hr = input.nextDouble();
 
-				System.out.println("============ CHARGES ===============");
+				System.out.println("============ EXTENDED CHARGES ===============");
 				System.out.println("VEHICLE TYPE: CAR");
-				if (hr > 2 {
-					double amount = (hr - 2) * 4 + 2.00;
+
+					double amount = (hr) * 4.50;
 					System.out.println("CHARGES = " + df.format(amount));
-				} else {
-					double amount = (hr) * 1.00;
-					System.out.println("CHARGES= " + df.format(amount));
-				}
+
 				break;
 			case 3:
-				System.out.print("ENTER THE TOTAL HOURS: ");
+				System.out.print("ENTER THE TOTAL HOURS YOU WANT TO EXTEND YOUR PARKING: ");
 				hr = input.nextDouble();
 
-				System.out.println("============ CHARGES ===============");
-				System.out.println("VEHICLE TYPE: TRUCK");
-				if (hr > 1) {
-					double amount = (hr - 1) * 5 + 2.00;
+				System.out.println("============ EXTENDED CHARGES ===============");
+				System.out.println("VEHICLE TYPE: BUS")
+					double amount = (hr - 1) * 5.50;
 					System.out.println("CHARGES = " + df.format(amount));
-				} else {
-					double amount = (hr) * 2.00;
-					System.out.println("CHARGES = " + df.format(amount));
-				}
+
 				break;
 			case 4:
 				quit = true;
