@@ -12,7 +12,7 @@ The main goal of this project will be to create a parking system monitor that ke
 
 
 ## Potential Users (Stakeholders)
-The potential users for this software would include the following groups:
+As we all know that transportation moves the world. Almost every adult in United States own atleast one if not several vehicle. We commute to work, home, school, parks, malls and we see the parking lots covers more area than the facility itself. Hence, it is very ovious that the parking system is one of the major components of any business. This program can be useful to manage the parking sysytem and make the whole process simpler, quicker and efficient. The potential users for this software would include the following groups:
 1.  Parking Garage Owners
 2.  Valet Parking Systems
 3. Business Enterprises
@@ -39,8 +39,8 @@ Potential Use Cases:
 
 2.  Select type of vehicle: 
 > Two Wheeler;
-> Car/truck;
-> Bus
+> Car;
+> Bus;
 
 3. Estimated Time
 > Hour;
