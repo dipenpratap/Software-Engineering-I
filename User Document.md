@@ -33,11 +33,56 @@ Potential Use Cases:
 
 
 ### Park
+1.  Membership
+> Member;
+> Guest 
 
+2.  Select type of vehicle: 
+> Two Wheeler;
+> Car/truck;
+> Bus
+
+3. Estimated Time
+> Hour;
+> Day;
+> Week;
+
+4. Finalize
+> Are you sure? Press OK to proceed...
+
+5. Display Thank you message!
 
 ### Exit
+1. Check time interval; 
+> (Current time - Time while parking)
+
+2. Perform Calculations
+> Different prices for Members & Guests;
+> Show total amount on Screen
+
+3. Pay
+> Provide user options of payments (Debit, Credit, Cash, Apple Pay);
+> After Payment is completed, TWO Options ( RECEIPT or NO RECIPT);
+> Print Receipt for second option
+
+4. Display Thank you message!
 
 
 ### Extend
+1. Hours
+> Provide hours options (30 mins, 1 hour, OR Enter Manually);
+> Show rates for respective extensions
+
+2. Day
+> Provide day options ( 1 day, 2 day, OR Enter Manually);
+> Show rates for respective extensions
+
+3. Week
+> Provide day options ( 1 week, 2 week, OR Enter Manually);
+> Show rates for respective extensions
+
+4. Confirm Extension 
+> (Print: Please press 'Yes' to confirm extension... );
+> Display Thank you message!
     
     
