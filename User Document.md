@@ -69,20 +69,50 @@ Potential Use Cases:
 
 
 ### Extend
-1. Hours
-> Provide hours options (30 mins, 1 hour, OR Enter Manually);
-> Show rates for respective extensions
 
-2. Day
-> Provide day options ( 1 day, 2 day, OR Enter Manually);
-> Show rates for respective extensions
+1. Select Vehicle Type: 
+    
+1. Two- Wheeler 
+    1.a. Hours
+    > Provide hours options (30 mins, 1 hour, OR Enter Manually);
+    > Show rates for respective extensions
 
-3. Week
-> Provide day options ( 1 week, 2 week, OR Enter Manually);
-> Show rates for respective extensions
+    1.b Day
+    > Provide day options ( 1 day, 2 day, OR Enter Manually);
+    > Show rates for respective extensions
+
+    1.c Week
+    > Provide day options ( 1 week, 2 week, OR Enter Manually);
+    > Show rates for respective extensions
+ 
+2. Car
+    2.a. Hours
+    > Provide hours options (30 mins, 1 hour, OR Enter Manually);
+    > Show rates for respective extensions
+
+    2.b Day
+    > Provide day options ( 1 day, 2 day, OR Enter Manually);
+    > Show rates for respective extensions
+
+    2.c Week
+    > Provide day options ( 1 week, 2 week, OR Enter Manually);
+    > Show rates for respective extensions
+
+3. Bus or Commercial Vehicle 
+    3.a. Hours
+    > Provide hours options (30 mins, 1 hour, OR Enter Manually);
+    > Show rates for respective extensions
+
+    3.b Day
+    > Provide day options ( 1 day, 2 day, OR Enter Manually);
+    > Show rates for respective extensions
+
+    3.c Week
+    > Provide day options ( 1 week, 2 week, OR Enter Manually);
+    > Show rates for respective extensions
+
 
 4. Confirm Extension 
-> (Print: Please press 'Yes' to confirm extension... );
-> Display Thank you message!
+    >  Display Thank you message!
     
     
