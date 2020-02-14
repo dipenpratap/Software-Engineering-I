@@ -17,7 +17,7 @@ Collaborators please learn git and create a branch before making any changes.
 import java.util.*;
 import java.text.*;
 
-class Parking {
+class Exit {
 	public static void main(String[] args) {
 		DecimalFormat df = new DecimalFormat("$##.##");
 		Scanner input = new Scanner(System.in);
@@ -55,7 +55,7 @@ class Parking {
 
 				System.out.println("============ CHARGES ===============");
 				System.out.println("VEHICLE TYPE: CAR");
-				if (hr > 2 {
+				if (hr > 2) {
 					double amount = (hr - 2) * 4 + 2.00;
 					System.out.println("CHARGES = " + df.format(amount));
 				} else {
@@ -88,6 +88,3 @@ class Parking {
 		while (!quit);
 	}
 }
-
-
-
