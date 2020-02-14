@@ -26,19 +26,19 @@ The potential users for this software would include the following groups:
 
 
 Potential Use Cases: 
-1)Park
+1.  Park
  a. Size of vehicle
  b. Hours
  c. Rate
  d. Booking
 
-2)Exit
+2.  Exit
 Pay
 a.  Credit/Debit Cards
 b.  Cash
 c.  Apple Pay
     
-3)Extend
+3.  Extend
 a.  Hour
 b.  Day
 c.  Week
