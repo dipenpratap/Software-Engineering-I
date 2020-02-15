@@ -55,7 +55,7 @@ class Parking {
 
 				System.out.println("============ CHARGES ===============");
 				System.out.println("VEHICLE TYPE: CAR");
-				if (hr > 2 {
+				if (hr > 2) {
 					double amount = (hr - 2) * 4 + 2.00;
 					System.out.println("CHARGES = " + df.format(amount));
 				} else {
@@ -78,7 +78,9 @@ class Parking {
 				}
 				break;
 			case 4:
+				input.close();
 				quit = true;
+
 				break;
 			default:
 				System.out.println("INVALID ENTRY!");

@@ -1,4 +1,4 @@
-package test1;
+//package test1;
 
 import java.util.*;
 import java.text.*;
@@ -116,6 +116,7 @@ class extend{
 				System.out.println("1. Hour(s)");
 				System.out.println("2. Days(s)");
 				System.out.println("3. Week(s)");
+				System.out.println("4. Exit");
 				do {
 					System.out.print("Select your time frame: ");
 					time= input.nextInt();
@@ -153,7 +154,7 @@ class extend{
 				break;
 				}			
 				while (!quit);
-				System.out.println(" Thank You for Extending your Time!!");
+				System.out.println("Thank You for Extending your Time!!");
 			case 4:
 				quit = true;
 				break;
@@ -167,7 +168,3 @@ class extend{
 	}
 }
 
-
-
-
-				
