@@ -13,7 +13,7 @@ Collaborators please learn git and create a branch before making any changes.
 
 */
 
-
+//package test1;
 import java.util.*;
 import java.text.*;
 
@@ -78,7 +78,9 @@ class Exit {
 				}
 				break;
 			case 4:
+				input.close();
 				quit = true;
+
 				break;
 			default:
 				System.out.println("INVALID ENTRY!");
