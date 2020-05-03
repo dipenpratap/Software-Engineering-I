@@ -14,7 +14,7 @@ Collaborators please learn git and create a branch before making any changes.
 import java.util.*;
 import java.text.*;
 
-class Parking {
+class  Parking {
 	public static void main(String[] args) {
 		DecimalFormat df = new DecimalFormat("$##.##");
 		Scanner input = new Scanner(System.in);
